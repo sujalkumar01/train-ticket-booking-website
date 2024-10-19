@@ -1,0 +1,220 @@
+.form-box {
+    
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 0;
+    position: relative;
+    width:45%;
+    height: 60%;
+    top: -90%;
+    left: 45%;
+    
+    margin-top: 25px;
+    
+    
+
+    
+    
+    
+    
+
+
+   
+
+    
+}
+
+
+
+.pnr-box
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    
+    top: -6.4%;
+    
+    
+    
+
+    
+    
+}
+
+#pnr-button
+{
+    border: none;
+    
+    
+    
+    text-align: center;
+    background-color: hwb(36 10% 0%);
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 3px;
+    
+}
+.ticket
+{
+    position: relative;
+    height: 15%;
+    text-align: center;
+    
+    
+}
+.book-ticket
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -1%;
+    color: hwb(36 10% 0%);
+    margin-top: 10px;
+
+}
+#book-button
+{
+    position: relative;
+    border: none;
+    background-color:hwb(36 10% 0%);
+    padding: 9px;
+    
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin:10px auto ;
+    display: block;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+    
+    
+
+}
+#book-button:hover
+{
+    transform: scale(1.1);
+    transition: ease;
+}
+
+.book
+{
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+   align-items: center;
+   
+}
+#from-location
+{
+    
+    display: block;
+    padding: 10px;
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    
+}
+#to-location
+{
+    display: block;
+    padding: 10px;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    
+    margin-left: 30px;
+    
+}
+#date
+{
+    display: block;
+    
+    width: 157px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+    
+}
+#class
+{
+    margin-left: 50px;
+    display: block;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+    
+}
+#dropdown-menu-to
+{
+    position: absolute;
+    top: 34.5px;
+    left: 0;
+    
+    display: none;
+    margin-top: 5px;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 320px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    margin-left: 30px;
+}
+#dropdown-menu
+{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    margin-left: 30px;
+    display: none;
+    margin-top: 5px;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 320px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    z-index: 2;
+
+}
+.dropdown-menu li ,.dropdown-menu-to li {
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* Style for dropdown menu items on hover */
+.dropdown-menu li:hover,.dropdown-menu-to li:hover {
+    background-color: #f4f4f4;
+}
+.from-dropdown,.to-dropdown {
+    position: relative;
+    display: inline-block;
+    
+
+    
+}
+
+/* Style for the input field */
+.from-dropdown input[type="text"],.dropdown-menu-to input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
